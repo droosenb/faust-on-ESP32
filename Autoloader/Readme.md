@@ -1,0 +1,1 @@
+The ESP32 autoloader app is developed to flash binary files created using the faustservice using the esp32Flash command. It is developed in python and bundled into a single executable using pyinstaller. To use, download the needed executable for your operating system and run. It should not have any dependencies. Gui translations into French are avalible inside of frenchDist

@@ -1,0 +1,18 @@
+######### ERROR MESSAGES ##########
+noFileError = "ERROR: File not found, was it moved or deleted?"
+connectionErrorMessage = "ERROR: The gramophone seems to be disconnected"
+missingFileErrorMessage = "ERROR: The zip file doesn't seem to contain the needed files"
+noFileSelectedError = "ERROR: A zipfile was not selected"
+
+#########STATUS MESSAGES###########
+flashingMessage = "Flashing to the Gramophone"
+appRunningMessage = 'Flashing Finished, waiting for a new file'
+initialZipMessage = 'Please select the Faust binary you downloaded'
+waitingMessage =  "Waiting for a file to be selected"
+
+########LABELS##########
+windowTitle = "ESP32 Automatic USB Flashing Tool"
+selectLabel = "Select File"
+statusMessage = 'Status:'
+quitLabel = 'QUIT'
+restartLabel = 'Restart Checking'
