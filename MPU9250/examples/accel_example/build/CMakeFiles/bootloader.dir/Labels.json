@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/dirk/esp/hello_world/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

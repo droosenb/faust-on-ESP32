@@ -1,0 +1,1 @@
+A self contained library for the MPU9250, the accelerometer/gyroscope/compass that is contained on the TTGO T-audio board. The library is adaped from the MPU9250_asukiaaa library for arduino. 

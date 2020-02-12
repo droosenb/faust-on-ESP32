@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/dirk/esp/hello_world/build/CMakeFiles/bootloader
+/home/dirk/esp/hello_world/build/CMakeFiles/bootloader.rule
+/home/dirk/esp/hello_world/build/CMakeFiles/bootloader-complete.rule
+/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/dirk/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
