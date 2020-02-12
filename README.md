@@ -1,3 +1,3 @@
 # faust-on-ESP32
 
-Tools and documentation that make using the faust programming language on the ESP-32, specifically for cheap audio boards from China. 
+faust-on-ESP32 is a set of tools, libraries, and examples which focus on making the ESP32 more accessible to inexpirenced users and expanding the capabilities. 
