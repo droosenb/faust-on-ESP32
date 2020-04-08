@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/home/dirk/Projects/LyraT/udp_server/sdkconfig;-DIDF_PATH=/home/dirk/esp/esp-adf/esp-idf;-DSECURE_BOOT_SIGNING_KEY=/home/dirk/Projects/LyraT/udp_server;-DEXTRA_COMPONENT_DIRS=/home/dirk/esp/esp-adf/esp-idf/components/bootloader;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -1,0 +1,669 @@
+In archive /home/dirk/Projects/LyraT/udp_server/build/audio_pipeline/libaudio_pipeline.a:
+
+audio_element.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.audio_element_cmd_send 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.audio_element_msg_sendout 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.audio_element_reset_state 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.audio_element_get_event_queue 00000004  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.audio_element_set_tag 00000024  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.audio_element_set_uri 00000024  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.audio_element_msg_set_listener 00000004  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.audio_element_msg_remove_listener 00000004  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.audio_element_setinfo 0000000c  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.audio_element_getinfo 0000000c  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.audio_element_report_info 00000004  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.audio_element_report_codec_fmt 00000004  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.audio_element_report_status 00000004  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.audio_element_process_init 00000028  00000000  00000000  000000c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.audio_element_report_pos 00000028  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.audio_element_finish_state 00000008  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.audio_element_change_cmd 00000020  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.audio_element_reset_input_ringbuf 00000008  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.audio_element_reset_output_ringbuf 00000008  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.audio_element_abort_input_ringbuf 00000008  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.audio_element_abort_output_ringbuf 00000008  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.audio_element_on_cmd 000000a0  00000000  00000000  00000158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.audio_element_set_ringbuf_done 00000008  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.audio_element_wait_for_stop 00000004  00000000  00000000  00000200  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.audio_element_wait_for_buffer 00000008  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.audio_element_init 0000009c  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.audio_element_run 00000040  00000000  00000000  000002a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.audio_element_terminate 00000034  00000000  00000000  000002e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.audio_element_pause 00000030  00000000  00000000  0000031c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.audio_element_resume 00000048  00000000  00000000  0000034c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.audio_element_process_running 00000050  00000000  00000000  00000394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.audio_element_task 00000054  00000000  00000000  000003e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal.audio_element_stop 00000034  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal.audio_element_input 00000074  00000000  00000000  0000046c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .literal.audio_element_output 00000068  00000000  00000000  000004e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .literal.audio_element_deinit 00000030  00000000  00000000  00000548  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .literal.audio_element_wait_for_stop_ms 00000004  00000000  00000000  00000578  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .literal.audio_element_multi_input 00000014  00000000  00000000  0000057c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .literal.audio_element_multi_output 00000004  00000000  00000000  00000590  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text         00000000  00000000  00000000  00000594  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 40 .data         00000000  00000000  00000000  00000594  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 41 .bss          00000000  00000000  00000000  00000594  2**0
+                  ALLOC
+ 42 .text.audio_element_force_set_state 0000000a  00000000  00000000  00000594  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 43 .text.audio_element_cmd_send 00000024  00000000  00000000  000005a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.audio_element_msg_sendout 00000034  00000000  00000000  000005c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.audio_element_process_deinit 0000001a  00000000  00000000  000005f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.audio_element_reset_state 00000011  00000000  00000000  00000614  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.audio_element_get_state 00000008  00000000  00000000  00000628  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 48 .text.audio_element_get_event_queue 00000016  00000000  00000000  00000630  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.audio_element_setdata 0000000a  00000000  00000000  00000648  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 50 .text.audio_element_getdata 00000008  00000000  00000000  00000654  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 51 .rodata.str1.4 0000088c  00000000  00000000  0000065c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 52 .text.audio_element_set_tag 0000005a  00000000  00000000  00000ee8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.audio_element_get_tag 00000008  00000000  00000000  00000f44  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 54 .text.audio_element_set_uri 0000005a  00000000  00000000  00000f4c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.audio_element_get_uri 00000008  00000000  00000000  00000fa8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 56 .text.audio_element_set_event_callback 00000012  00000000  00000000  00000fb0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 57 .text.audio_element_msg_set_listener 00000012  00000000  00000000  00000fc4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.audio_element_msg_remove_listener 00000012  00000000  00000000  00000fd8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.audio_element_setinfo 00000048  00000000  00000000  00000fec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.audio_element_getinfo 00000048  00000000  00000000  00001034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.audio_element_report_info 00000028  00000000  00000000  0000107c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.audio_element_report_codec_fmt 00000028  00000000  00000000  000010a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.audio_element_report_status 00000024  00000000  00000000  000010cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.audio_element_process_init 00000084  00000000  00000000  000010f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text.audio_element_report_pos 00000080  00000000  00000000  00001174  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text.audio_element_finish_state 00000030  00000000  00000000  000011f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text.audio_element_change_cmd 00000044  00000000  00000000  00001224  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.audio_element_reset_input_ringbuf 00000040  00000000  00000000  00001268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .text.audio_element_reset_output_ringbuf 0000003c  00000000  00000000  000012a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .text.audio_element_abort_input_ringbuf 0000003c  00000000  00000000  000012e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .text.audio_element_abort_output_ringbuf 0000003c  00000000  00000000  00001320  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .text.audio_element_on_cmd 0000023c  00000000  00000000  0000135c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .rodata.audio_element_on_cmd 0000001c  00000000  00000000  00001598  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 74 .text.audio_element_set_ringbuf_done 00000048  00000000  00000000  000015b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text.audio_element_set_input_ringbuf 00000019  00000000  00000000  000015fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .text.audio_element_get_input_ringbuf 00000010  00000000  00000000  00001618  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 77 .text.audio_element_set_output_ringbuf 00000019  00000000  00000000  00001628  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .text.audio_element_get_output_ringbuf 00000010  00000000  00000000  00001644  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 79 .text.audio_element_set_input_timeout 00000010  00000000  00000000  00001654  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 80 .text.audio_element_set_output_timeout 00000010  00000000  00000000  00001664  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 81 .text.audio_element_get_output_ringbuf_size 0000000e  00000000  00000000  00001674  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 82 .text.audio_element_set_output_ringbuf_size 00000010  00000000  00000000  00001684  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 83 .text.audio_element_set_read_cb 00000015  00000000  00000000  00001694  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 84 .text.audio_element_set_write_cb 00000015  00000000  00000000  000016ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 85 .text.audio_element_wait_for_stop 00000040  00000000  00000000  000016c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 86 .text.audio_element_wait_for_buffer 00000038  00000000  00000000  00001704  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 87 .rodata       0000001c  00000000  00000000  0000173c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 88 .text.audio_element_init 0000029e  00000000  00000000  00001758  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 89 .text.audio_element_run 000000d2  00000000  00000000  000019f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 90 .text.audio_element_terminate 000000ad  00000000  00000000  00001acc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 91 .text.audio_element_pause 000000b1  00000000  00000000  00001b7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 92 .text.audio_element_resume 00000124  00000000  00000000  00001c30  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 93 .text.audio_element_process_running 00000115  00000000  00000000  00001d54  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 94 .rodata.audio_element_process_running 00000018  00000000  00000000  00001e6c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 95 .text.audio_element_task 000000fa  00000000  00000000  00001e84  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 96 .text.audio_element_stop 000000d2  00000000  00000000  00001f80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 97 .text.audio_element_input 00000174  00000000  00000000  00002054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 98 .rodata.audio_element_input 00000014  00000000  00000000  000021c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 99 .text.audio_element_output 0000016c  00000000  00000000  000021dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+100 .rodata.audio_element_output 00000014  00000000  00000000  00002348  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+101 .text.audio_element_deinit 00000088  00000000  00000000  0000235c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+102 .text.audio_element_wait_for_stop_ms 00000044  00000000  00000000  000023e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+103 .text.audio_element_multi_input 00000049  00000000  00000000  00002428  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+104 .text.audio_element_multi_output 0000002f  00000000  00000000  00002474  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+105 .text.audio_element_set_multi_input_ringbuf 00000021  00000000  00000000  000024a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+106 .text.audio_element_set_multi_output_ringbuf 00000021  00000000  00000000  000024c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+107 .text.audio_element_get_multi_input_ringbuf 00000015  00000000  00000000  000024ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+108 .text.audio_element_get_multi_output_ringbuf 00000015  00000000  00000000  00002504  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+109 .text.audio_element_seek 00000026  00000000  00000000  0000251c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+110 .rodata.__FUNCTION__$6227 00000013  00000000  00000000  00002544  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+111 .rodata.__FUNCTION__$6131 00000019  00000000  00000000  00002558  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+112 .rodata.__FUNCTION__$6123 00000019  00000000  00000000  00002574  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+113 .rodata.__FUNCTION__$6075 00000016  00000000  00000000  00002590  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+114 .rodata.__FUNCTION__$6067 00000016  00000000  00000000  000025a8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+115 .rodata.__FUNCTION__$6043 00000013  00000000  00000000  000025c0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+116 .debug_frame  000005e0  00000000  00000000  000025d4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+117 .debug_info   00003549  00000000  00000000  00002bb4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+118 .debug_abbrev 00000300  00000000  00000000  000060fd  2**0
+                  CONTENTS, READONLY, DEBUGGING
+119 .debug_loc    000018ab  00000000  00000000  000063fd  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+120 .debug_aranges 00000208  00000000  00000000  00007ca8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+121 .debug_ranges 00000288  00000000  00000000  00007eb0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+122 .debug_line   000019d9  00000000  00000000  00008138  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+123 .debug_str    000016dd  00000000  00000000  00009b11  2**0
+                  CONTENTS, READONLY, DEBUGGING
+124 .comment      0000003b  00000000  00000000  0000b1ee  2**0
+                  CONTENTS, READONLY
+125 .xtensa.info  00000038  00000000  00000000  0000b229  2**0
+                  CONTENTS, READONLY
+126 .xt.lit       00000138  00000000  00000000  0000b261  2**0
+                  CONTENTS, RELOC, READONLY
+127 .xt.prop      00001a4c  00000000  00000000  0000b399  2**0
+                  CONTENTS, RELOC, READONLY
+
+audio_event_iface.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.audio_event_iface_update_listener 0000001c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.audio_event_iface_init 00000044  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.audio_event_iface_read 00000008  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.audio_event_iface_waiting_cmd_msg 00000004  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.audio_event_iface_cmd 00000004  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.audio_event_iface_cmd_from_isr 00000004  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.audio_event_iface_sendout 00000004  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.audio_event_iface_discard 0000000c  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.audio_event_iface_cleanup_listener 0000001c  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.audio_event_iface_destroy 0000001c  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.audio_event_iface_set_listener 00000034  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.audio_event_iface_set_msg_listener 00000034  00000000  00000000  00000124  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.audio_event_iface_remove_listener 0000000c  00000000  00000000  00000158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.audio_event_iface_listen 00000004  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text         00000000  00000000  00000000  00000168  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .data         00000000  00000000  00000000  00000168  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .bss          00000000  00000000  00000000  00000168  2**0
+                  ALLOC
+ 17 .rodata.str1.4 00000113  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .text.audio_event_iface_update_listener 00000075  00000000  00000000  0000027c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.audio_event_iface_init 0000010e  00000000  00000000  000002f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.audio_event_iface_read 00000034  00000000  00000000  00000404  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.audio_event_iface_set_cmd_waiting_timeout 00000009  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 22 .text.audio_event_iface_waiting_cmd_msg 00000036  00000000  00000000  00000444  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.audio_event_iface_cmd 00000024  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.audio_event_iface_cmd_from_isr 00000024  00000000  00000000  000004a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.audio_event_iface_sendout 00000024  00000000  00000000  000004c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.audio_event_iface_discard 00000058  00000000  00000000  000004e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.audio_event_iface_cleanup_listener 0000005c  00000000  00000000  00000540  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.audio_event_iface_destroy 0000007a  00000000  00000000  0000059c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.audio_event_iface_set_listener 000000ae  00000000  00000000  00000618  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.audio_event_iface_set_msg_listener 000000ae  00000000  00000000  000006c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.audio_event_iface_remove_listener 00000072  00000000  00000000  00000778  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.audio_event_iface_listen 0000001e  00000000  00000000  000007ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.audio_event_iface_get_queue_handle 0000000d  00000000  00000000  0000080c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.audio_event_iface_get_msg_queue_handle 0000000d  00000000  00000000  0000081c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .rodata.__FUNCTION__$5398 00000023  00000000  00000000  0000082c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 36 .rodata.__FUNCTION__$5392 0000001f  00000000  00000000  00000850  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 37 .rodata.__FUNCTION__$5344 00000017  00000000  00000000  00000870  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 38 .debug_frame  000001a8  00000000  00000000  00000888  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_info   00000ed7  00000000  00000000  00000a30  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_abbrev 0000025b  00000000  00000000  00001907  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 41 .debug_loc    00000672  00000000  00000000  00001b62  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_aranges 000000a0  00000000  00000000  000021d4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 43 .debug_ranges 000000a8  00000000  00000000  00002274  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 44 .debug_line   000008bc  00000000  00000000  0000231c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 45 .debug_str    00000773  00000000  00000000  00002bd8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 46 .comment      0000003b  00000000  00000000  0000334b  2**0
+                  CONTENTS, READONLY
+ 47 .xtensa.info  00000038  00000000  00000000  00003386  2**0
+                  CONTENTS, READONLY
+ 48 .xt.lit       00000070  00000000  00000000  000033be  2**0
+                  CONTENTS, RELOC, READONLY
+ 49 .xt.prop      00000828  00000000  00000000  0000342e  2**0
+                  CONTENTS, RELOC, READONLY
+
+audio_pipeline.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.audio_pipeline_get_el_item_by_tag 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.audio_pipeline_register_element 00000034  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.add_rb_to_audio_pipeline 00000020  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.audio_pipeline_unregister_element 00000004  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal._pipeline_rb_linked 00000054  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.audio_pipeline_el_item_link 0000004c  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.audio_pipeline_get_el_by_tag 00000018  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.audio_pipeline_get_el_once 00000018  00000000  00000000  0000014c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.audio_pipeline_remove_listener 00000024  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.audio_pipeline_set_listener 0000001c  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.audio_pipeline_init 00000024  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.audio_pipeline_unregister 00000004  00000000  00000000  000001c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.audio_pipeline_register 00000028  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.audio_pipeline_resume 00000010  00000000  00000000  000001f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.audio_pipeline_pause 00000004  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.audio_pipeline_stop 00000030  00000000  00000000  00000208  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.audio_pipeline_wait_for_stop 00000024  00000000  00000000  00000238  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.audio_pipeline_terminate 0000000c  00000000  00000000  0000025c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.audio_pipeline_run 00000054  00000000  00000000  00000268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.audio_pipeline_unlink 00000024  00000000  00000000  000002bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.audio_pipeline_deinit 00000018  00000000  00000000  000002e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.audio_pipeline_link 00000024  00000000  00000000  000002f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.audio_pipeline_register_more 00000004  00000000  00000000  0000031c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.audio_pipeline_unregister_more 00000004  00000000  00000000  00000320  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.audio_pipeline_link_more 00000020  00000000  00000000  00000324  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.audio_pipeline_link_insert 00000014  00000000  00000000  00000344  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.audio_pipeline_listen_more 00000010  00000000  00000000  00000358  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.audio_pipeline_check_items_state 00000048  00000000  00000000  00000368  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.audio_pipeline_reset_ringbuffer 00000008  00000000  00000000  000003b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.audio_pipeline_reset_elements 00000004  00000000  00000000  000003b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.audio_pipeline_reset_kept_state 00000018  00000000  00000000  000003bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.audio_pipeline_breakup_elements 00000054  00000000  00000000  000003d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal.audio_pipeline_relink 00000044  00000000  00000000  00000428  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal.audio_pipeline_relink_more 00000050  00000000  00000000  0000046c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text         00000000  00000000  00000000  000004bc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 35 .data         00000000  00000000  00000000  000004bc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 36 .bss          00000000  00000000  00000000  000004bc  2**0
+                  ALLOC
+ 37 .text.audio_pipeline_get_el_item_by_handle 00000014  00000000  00000000  000004bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.debug_pipeline_lists 00000017  00000000  00000000  000004d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.audio_pipeline_get_el_item_by_tag 00000023  00000000  00000000  000004e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .rodata.str1.4 00000709  00000000  00000000  0000050c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .text.audio_pipeline_register_element 00000085  00000000  00000000  00000c18  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.add_rb_to_audio_pipeline 00000055  00000000  00000000  00000ca0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.audio_pipeline_unregister_element 0000003e  00000000  00000000  00000cf8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text._pipeline_rb_linked 000000fc  00000000  00000000  00000d38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.audio_pipeline_el_item_link 00000150  00000000  00000000  00000e34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.audio_pipeline_change_state 00000009  00000000  00000000  00000f84  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 47 .text.audio_pipeline_get_el_by_tag 00000061  00000000  00000000  00000f90  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.audio_pipeline_get_el_once 0000006f  00000000  00000000  00000ff4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.audio_pipeline_remove_listener 0000006f  00000000  00000000  00001064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.audio_pipeline_set_listener 0000005b  00000000  00000000  000010d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.audio_pipeline_init 0000006e  00000000  00000000  00001130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.audio_pipeline_unregister 00000044  00000000  00000000  000011a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.audio_pipeline_register 0000006a  00000000  00000000  000011e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.audio_pipeline_resume 0000004e  00000000  00000000  00001250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.audio_pipeline_pause 0000001c  00000000  00000000  000012a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.audio_pipeline_stop 000000bf  00000000  00000000  000012bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.audio_pipeline_wait_for_stop 0000007c  00000000  00000000  0000137c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.audio_pipeline_terminate 0000002d  00000000  00000000  000013f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.audio_pipeline_run 000000e2  00000000  00000000  00001428  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.audio_pipeline_unlink 000000b4  00000000  00000000  0000150c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.audio_pipeline_deinit 00000045  00000000  00000000  000015c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.audio_pipeline_link 0000008a  00000000  00000000  00001608  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.audio_pipeline_register_more 00000052  00000000  00000000  00001694  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.audio_pipeline_unregister_more 00000052  00000000  00000000  000016e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text.audio_pipeline_link_more 000000c4  00000000  00000000  0000173c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text.audio_pipeline_link_insert 00000045  00000000  00000000  00001800  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text.audio_pipeline_listen_more 00000082  00000000  00000000  00001848  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.audio_pipeline_check_items_state 0000019f  00000000  00000000  000018cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .text.audio_pipeline_reset_items_state 0000001a  00000000  00000000  00001a6c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .text.audio_pipeline_reset_ringbuffer 00000024  00000000  00000000  00001a88  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .text.audio_pipeline_reset_elements 0000001c  00000000  00000000  00001aac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .text.audio_pipeline_reset_kept_state 00000071  00000000  00000000  00001ac8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .text.audio_pipeline_breakup_elements 0000016c  00000000  00000000  00001b3c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .text.audio_pipeline_relink 00000108  00000000  00000000  00001ca8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text.audio_pipeline_relink_more 00000166  00000000  00000000  00001db0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .rodata.__func__$6430 0000001b  00000000  00000000  00001f18  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 77 .rodata.__FUNCTION__$6429 0000001b  00000000  00000000  00001f34  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 78 .bss.rb$6394  00000004  00000000  00000000  00001f50  2**2
+                  ALLOC
+ 79 .rodata.__FUNCTION__$6403 0000001c  00000000  00000000  00001f50  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 80 .rodata.__func__$6409 00000016  00000000  00000000  00001f6c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 81 .rodata.__func__$6365 00000020  00000000  00000000  00001f84  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 82 .rodata.__func__$6312 0000001b  00000000  00000000  00001fa4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 83 .rodata.__FUNCTION__$6074 00000019  00000000  00000000  00001fc0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 84 .rodata.__FUNCTION__$6054 00000020  00000000  00000000  00001fdc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 85 .rodata.__FUNCTION__$6230 00000014  00000000  00000000  00001ffc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 86 .bss.rb$6227  00000004  00000000  00000000  00002010  2**2
+                  ALLOC
+ 87 .rodata.__func__$6245 00000014  00000000  00000000  00002010  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 88 .rodata.__func__$6188 00000013  00000000  00000000  00002024  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 89 .rodata.__FUNCTION__$6149 00000018  00000000  00000000  00002038  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 90 .rodata.__FUNCTION__$6134 00000014  00000000  00000000  00002050  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 91 .debug_frame  000003a0  00000000  00000000  00002064  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 92 .debug_info   00002a86  00000000  00000000  00002404  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 93 .debug_abbrev 000002c1  00000000  00000000  00004e8a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 94 .debug_loc    00001566  00000000  00000000  0000514b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 95 .debug_aranges 00000148  00000000  00000000  000066b1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 96 .debug_ranges 000001b0  00000000  00000000  000067f9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 97 .debug_line   000018fc  00000000  00000000  000069a9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 98 .debug_str    00000f0a  00000000  00000000  000082a5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 99 .comment      0000003b  00000000  00000000  000091af  2**0
+                  CONTENTS, READONLY
+100 .xtensa.info  00000038  00000000  00000000  000091ea  2**0
+                  CONTENTS, READONLY
+101 .xt.lit       00000110  00000000  00000000  00009222  2**0
+                  CONTENTS, RELOC, READONLY
+102 .xt.prop      000014e8  00000000  00000000  00009332  2**0
+                  CONTENTS, RELOC, READONLY
+
+ringbuf.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.rb_release 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.rb_abort_read 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.rb_abort_write 00000004  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.rb_destroy 00000014  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.rb_create 00000040  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.rb_read 00000024  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.rb_write 00000028  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.rb_abort 0000000c  00000000  00000000  000000e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.rb_done_write 00000004  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.rb_unblock_reader 00000004  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text         00000000  00000000  00000000  000000f4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .data         00000000  00000000  00000000  000000f4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .bss          00000000  00000000  00000000  000000f4  2**0
+                  ALLOC
+ 13 .text.rb_release 00000013  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.rb_abort_read 00000021  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.rb_abort_write 00000021  00000000  00000000  0000012c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.rb_destroy 00000041  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .rodata.str1.4 000000a1  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .text.rb_create 000000e8  00000000  00000000  00000238  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.rb_reset 0000002c  00000000  00000000  00000320  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.rb_bytes_available 0000000f  00000000  00000000  0000034c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .text.rb_bytes_filled 0000000a  00000000  00000000  0000035c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 22 .text.rb_read 0000016e  00000000  00000000  00000368  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.rb_write 00000154  00000000  00000000  000004d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.rb_abort 00000032  00000000  00000000  0000062c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.rb_is_full 00000020  00000000  00000000  00000660  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.rb_done_write 0000001d  00000000  00000000  00000680  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.rb_unblock_reader 0000001d  00000000  00000000  000006a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.rb_is_done_write 0000000e  00000000  00000000  000006c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.rb_get_size 0000000e  00000000  00000000  000006d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .rodata.__FUNCTION__$5489 0000000a  00000000  00000000  000006e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .debug_frame  00000190  00000000  00000000  000006ec  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_info   00000a24  00000000  00000000  0000087c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_abbrev 0000022d  00000000  00000000  000012a0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 34 .debug_loc    000006d9  00000000  00000000  000014cd  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_aranges 00000098  00000000  00000000  00001ba6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_ranges 00000088  00000000  00000000  00001c3e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_line   00000823  00000000  00000000  00001cc6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_str    000004fc  00000000  00000000  000024e9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 39 .comment      0000003b  00000000  00000000  000029e5  2**0
+                  CONTENTS, READONLY
+ 40 .xtensa.info  00000038  00000000  00000000  00002a20  2**0
+                  CONTENTS, READONLY
+ 41 .xt.lit       00000050  00000000  00000000  00002a58  2**0
+                  CONTENTS, RELOC, READONLY
+ 42 .xt.prop      000006fc  00000000  00000000  00002aa8  2**0
+                  CONTENTS, RELOC, READONLY
