@@ -3,4 +3,4 @@ This code is likely out of date. Up to date drivers can be found at:
 
 https://github.com/grame-cncm/faust
 
-This project was compiled using the espressif esp-idf VS Code extension and may need modification for compilation using regular esp-idf methods
+This project was tested using the espressif esp-idf VS Code extension and may need modification for compilation using the commandline esp-idf toolchain
