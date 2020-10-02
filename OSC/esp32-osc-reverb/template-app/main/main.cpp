@@ -45,8 +45,8 @@
    If you'd rather not, just change the below entries to strings with
    the config you want - ie #define EXAMPLE_WIFI_SSID "mywifissid"
 */
-#define EXAMPLE_ESP_WIFI_SSID      "Obiehub_North"
-#define EXAMPLE_ESP_WIFI_PASS      "badpassword"
+#define EXAMPLE_ESP_WIFI_SSID      "example_network"
+#define EXAMPLE_ESP_WIFI_PASS      "example_password"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  5
 
 static const char *TAG = "OSC Device"; //the tag for ESP_LOG
